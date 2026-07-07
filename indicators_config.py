@@ -39,21 +39,21 @@ indicatorsList = [
     ["servoValues", "srvStatus",     None,         "Servo Status"],
     ["servoValues", "sensorStatus",  None,         "Sensor Status"],
 
-    ["speedValues", "speed",         speedometer_ind, "Speed"],
-    ["tempValues",  "temp",          thermometer_ind, "Temp"],
-    ["altValues",   "alt",           altitude_ind,    "Altitude"],
+    ["speedValues", "speed",         speedometer_ind, "Speed(km/h)"],
+    ["tempValues",  "temp",          thermometer_ind, "Temp(°C)"],
+    ["altValues",   "alt",           altitude_ind,    "Altitude(m)"],
 
     # Combined routing: One function populates multiple diverse widgets and text flags simultaneously
-    ["flightStatus", "spd",            speedometer_ind, "Speed"],
-    ["flightStatus", "tmp",            thermometer_ind, "Temp"],
-    ["flightStatus", "alt",            altitude_ind,    "Altitude"],
-    ["flightStatus", "roll",           rollGauge,        "Roll"],
+    ["flightStatus", "spd",            speedometer_ind, "Speed(km/h)"],
+    ["flightStatus", "tmp",            thermometer_ind, "Temp(°C)"],
+    ["flightStatus", "alt",            altitude_ind,    "Altitude(m)"],
+    ["flightStatus", "roll",           rollGauge,        "Gauge(V)"],
     ["flightStatus", "engineStatus",   None,             "Engine"],
     ["flightStatus", "gpsStatus",      None,             "GPS"],
     
     ["servoAndTemp", "servoPos",       servoGauge_1,     "Servo Pos"],
     ["servoAndTemp", "ambientTemp",    thermometer_ind,  "Ambient Temp"],
-    ["attitudeValues", "attitude",     artificial_horizon, "Artificial Horizon"]
+    ["attitudeValues", "attitude",     artificial_horizon, "Artificial Horizon(pitch,roll)"]
 ]
 
 FUNCTION_DISPLAY_NAMES = {}
