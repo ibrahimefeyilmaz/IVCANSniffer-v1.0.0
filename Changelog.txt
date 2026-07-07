@@ -39,10 +39,6 @@ FIXED:
 [1.1.0] - 2026-07-07
 ------------------------------------------------------------------------
 
-------------------------------------------------------------------------
-[1.1.0] - 2026-07-07
-------------------------------------------------------------------------
-
 ADDED: 
 * Artificial Horizon Indicator: Added a new custom QWidget to visualize 
   dynamic pitch and roll movements with an integrated pitch ladder.
