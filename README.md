@@ -28,7 +28,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yigit-arda/IVCANSniffer.git
+git clone https://github.com/ibrahimefeyilmaz/IVCANSniffer-v1.3.0.git
 cd IVCANSniffer
 ```
 
